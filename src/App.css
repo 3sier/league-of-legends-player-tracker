@@ -1,38 +1,62 @@
 .App {
   text-align: center;
+  background-color: #122438;
+  color: #d1d1e0;
+  font-family: "Roboto Slab", serif;
+}
+body {
+  background-color: #122438;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h5 {
+  color: #c8aa6e;
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-family: "Friz Quadrata", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #345a7e;
+  background-color: #1c3d5a;
+  color: #d1d1e0;
+  font-family: "Roboto Slab", serif;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0077cc;
   color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: "Roboto Slab", serif;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+  border-radius: 50%;
+  margin-top: 20px;
+  border: 3px solid #0077cc;
+}
+
+.no-data {
+  color: #ff4500;
+  font-family: "Roboto Slab", serif;
 }
